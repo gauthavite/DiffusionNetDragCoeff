@@ -19,6 +19,6 @@ We leverage **DiffusionNet**, a sampling- and resolution-agnostic model that ope
 ## How to Run
 
 1. Update the configuration parameters in `config.py` as needed.
-2. Run the following command to start training or testing:
+2. Run the following command to start training:
    ```bash
    python main.py
