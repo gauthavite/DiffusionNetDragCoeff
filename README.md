@@ -5,8 +5,8 @@ This repository implements a custom version of **DiffusionNet**, inspired by the
 ## Dataset
 
 We use the [Decode Project dataset](https://decode.mit.edu/projects/dragprediction/), which contains:
-- **2,474 high-quality car meshes**
-- Drag coefficients calculated using **Computational Fluid Dynamics (CFD)**.
+- 2,474 high-quality car meshes from ShapeNet
+- Drag coefficients calculated using Computational Fluid Dynamics (CFD).
 
 ## Objective
 
@@ -15,3 +15,10 @@ The goal is to develop a model that accurately predicts drag coefficients direct
 ## Methodology
 
 We leverage **DiffusionNet**, a sampling- and resolution-agnostic model that operates directly on 3D meshes. It uses a learned diffusion layer to extract meaningful geometric features, enabling effective drag coefficient prediction.
+
+## How to Run
+
+1. Update the configuration parameters in `config.py` as needed.
+2. Run the following command to start training or testing:
+   ```bash
+   python main.py
